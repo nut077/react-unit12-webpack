@@ -5,3 +5,4 @@ yarn add --dev babel-core babel-preset-env babel-preset-react
 yarn add --dev babel-loader
 yarn add --dev react-hot-loader@next
 yarn add --dev sass-loader node-sass css-loader style-loader
+yarn add --dev postcss-loader postcss-import postcss-cssnext
