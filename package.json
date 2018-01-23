@@ -6,7 +6,7 @@
   "author": "Nut Freedom",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack-dev-server --hot"
+    "dev": "webpack-dev-server"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

@@ -2,7 +2,7 @@ import React from 'react'
 import style from './Root.scss'
 
 function getMessage() {
-  return 'Hello World';
+  return 'Hello World!';
 }
 
 export default () => (
