@@ -21,6 +21,7 @@ module.exports = {
   },
   module: {
     rules: [
+      { test: /\.js$/, exclude: /node_module/, enforce: 'pre', loader: 'eslint-loader' },
       { test: /\.js$/, exclude: /node_module/, loader: 'babel-loader' },
       {
         test: /\.scss$/,
